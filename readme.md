@@ -1,26 +1,28 @@
-=== Reggie! Level Editor (Release 3) ===
+# Reggie! Level Editor (Release 4)
 
 Advanced level editor for New Super Mario Bros. Wii, created by Treeki and
 Tempus using Python, PyQt and Wii.py.
 
 Homepage: http://www.rvlution.net/reggie/
+
 Support:  http://www.rvlution.net/forums/
 
-Source code package for this release:
-- http://www.rvlution.net/reggie/downloads/Reggie_r3_source.zip
+Source code package for this release: http://www.rvlution.net/reggie/downloads/Reggie_r4_source.zip
 
 
-=== Changelog: ===
+## Changelog
 
-Release 3: (April 2nd, 2011)
+### Release 4 (??)
+- Converted readme.txt to Markdown.
+
+### Release 3 (April 2nd, 2011)
 - Unicode is now supported in sprite names within spritedata.xml
-    (thanks to 'NSMBWHack' on rvlution.net for the bug report)
+    (thanks to 'NSMBWHack' on rvlution.net for the bug report).
 - Unicode is now supported in sprite categories.
 - Sprites 274, 354 and 356 now render using images.
 - Other various bug fixes.
 
-
-Release 2: (April 2nd, 2010)
+### Release 2 (April 2nd, 2010)
 - Bug with Python 2.5 compatibility fixed.
 - Unicode filenames and Stage folder paths should now work.
 - Changed key shortcut for "Shift Objects" to fix a conflict.
@@ -28,21 +30,20 @@ Release 2: (April 2nd, 2010)
 - Fixed a crash with the Delete Zone button in levels with no zones.
 - Added an error message if an error occurs while loading a tileset.
 - Fixed W9 toad houses showing up as unused in the level list.
-- Removed integrated help viewer (should kill the QtWebKit dependency)
-- Fixed a small error when saving levels with empty blocks
-- Fixed tileset changing
-- Palette is no longer unclosable
-- Ctrl+0 now sets the zoom level to 100%
-- Path editing support added (thanks, Angel-SL)
+- Removed integrated help viewer (should kill the QtWebKit dependency).
+- Fixed a small error when saving levels with empty blocks.
+- Fixed tileset changing.
+- Palette is no longer unclosable.
+- Ctrl+0 now sets the zoom level to 100%.
+- Path editing support added (thanks, Angel-SL).
 
-
-Release 1: (March 19th, 2010)
+### Release 1 (March 19th, 2010)
 - Reggie! is finally released after 4 months of work and 18 test builds!
 - First release, may have bugs or incomplete sprites. Report any errors to us
   at the forums (link above).
 
 
-=== Requirements: ===
+## Requirements
 
 If you are using the source release:
 - Python 2.5 (or newer) - http://www.python.org
@@ -57,7 +58,7 @@ libraries, check the Getting Started page inside the help file
 (located at reggiedata/help/start.html within the archive)
 
 
-=== Reggie! Team: ===
+## Reggie! Team
 
 Developers:
 - Treeki - Creator, Programmer, Data, RE
@@ -76,15 +77,15 @@ Other Testers and Contributors:
 - Tobias Amaranth and Valeth - Text Tileset Addon
 
 
-=== Libraries/Resources: ===
+## Libraries/Resources
 
-Qt - Nokia (http://qt.nokia.com)
-PyQt - Riverbank Computing (http://www.riverbankcomputing.co.uk/software/pyqt/intro)
-Wii.py - megazig, Xuzz, The Lemon Man, Matt_P, SquidMan, Omega (http://github.com/icefire/Wii.py)
-Interface Icons - Yusuke Kamiyamane (http://www.pinvoke.com)
+- Qt -- The Qt Company (https://www.qt.io/)
+- PyQt -- Riverbank Computing (http://www.riverbankcomputing.co.uk/software/pyqt/intro)
+- Wii.py -- megazig, Xuzz, The Lemon Man, Matt_P, SquidMan, Omega (http://github.com/icefire/Wii.py)
+- Interface Icons -- Yusuke Kamiyamane (http://www.pinvoke.com)
 
 
-=== Licensing: ===
+## Licensing
 
 Reggie! is released under the GNU General Public License v2.
 See the license file in the distribution for information.
